@@ -29,3 +29,23 @@ The VProfile application was successfully deployed and is accessible via a web b
 
 ## Screenshots
 Project screenshots will be added to showcase key stages of deployment and final application output.
+
+
+
+## Day 40 - VProfile Infrastructure Validation & Troubleshooting
+
+### Activities Completed:
+- Verified all VMs (db01, mc01, rmq01, app01, web01) running successfully
+- Tested inter-VM communication (web01 → app01 connectivity)
+- Confirmed VProfile application deployment on Tomcat
+- Accessed application via browser
+- Captured and documented APT repository/network issues during setup
+
+### Evidence:
+- VM status screenshot
+- Network connectivity test
+- Application login page
+- APT error troubleshooting screenshot
+
+### Outcome:
+Successfully validated full-stack VProfile infrastructure deployment using Vagrant multi-VM environment.
