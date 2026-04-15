@@ -48,4 +48,33 @@ Project screenshots will be added to showcase key stages of deployment and final
 - APT error troubleshooting screenshot
 
 ### Outcome:
-Successfully validated full-stack VProfile infrastructure deployment using Vagrant multi-VM environment.
+Successfully validated full-stack VProfile infrastructure deployment using Vagrant multi-VM environment. 
+
+
+
+
+## Day 41 - Networking & Infrastructure Validation (VProfile Project)
+
+### Activities Completed:
+- Verified Vagrant multi-VM environment is running (db01, mc01, rmq01, app01, web01)
+- Resolved VM state issue (web01 saved → running)
+- Identified web01 IP address using ip a
+- Tested inter-VM communication (web01 → app01 using ping)
+- Verified active services and ports using ss -tulnp
+- Accessed VProfile application via browser
+
+### Key Learning:
+- Linux networking fundamentals (IP, DNS, ports)
+- Vagrant VM state management
+- Inter-VM communication in private networks
+- System service monitoring
+
+### Evidence:
+- VM status screenshot
+- web01 IP address screenshot
+- ping test screenshot
+- open ports screenshot
+- application login page screenshot
+
+### Outcome:
+Successfully validated full-stack infrastructure connectivity and application accessibility in a multi-tier Vagrant environment.
