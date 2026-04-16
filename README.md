@@ -78,3 +78,27 @@ Successfully validated full-stack VProfile infrastructure deployment using Vagra
 
 ### Outcome:
 Successfully validated full-stack infrastructure connectivity and application accessibility in a multi-tier Vagrant environment.
+
+
+## Day 42 – Docker Fundamentals
+
+In this stage, I practiced Docker containerization fundamentals including installation, image handling, and container execution.
+
+### Key Learnings:
+- Installed and verified Docker engine
+- Understood Docker CLI and daemon interaction
+- Pulled images from Docker Hub
+- Ran first container (hello-world)
+- Executed interactive Ubuntu container
+- Understood container lifecycle using docker ps -a
+
+### Practical Work:
+- Ran docker run hello-world
+- Ran Ubuntu container using docker run -it ubuntu bash
+- Verified OS inside container using cat /etc/os-release
+- Inspected images and containers using:
+  - docker images
+  - docker ps -a
+
+### Evidence:
+Screenshots stored in:
