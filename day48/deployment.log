@@ -1,0 +1,7 @@
+2026-04-25 16:31:28 - Starting deployment for my-nginx on port 8085
+2026-04-25 16:31:30 - Creating new container...
+2026-04-25 16:31:31 - Deployment failed
+2026-04-25 16:38:55 - Starting deployment for my-nginx on port 8085
+2026-04-25 16:38:56 - Creating new container...
+0e0b77415712f72b506614cae235eaaf64152cc2e2f1c83ef81d3a8fdb9084a6
+2026-04-25 16:39:02 - Deployment successful
